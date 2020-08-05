@@ -958,7 +958,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 360px;
+  height: 210px;
   overflow: hidden;
 }
 
@@ -1031,12 +1031,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   text-align: center;
   padding: 30px;
-  height: 90px;
+  height: 180px;
   border-radius: 0 0 3px 3px;
 }
 
 #portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1px;
   font-weight: 700;
   margin-bottom: 18px;
@@ -1054,10 +1054,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item .portfolio-info p {
   padding: 0;
   margin: 0;
-  color: #b8b8b8;
+  color: #000;
   font-weight: 500;
   font-size: 14px;
-  text-transform: uppercase;
+  text-align: justify;
 }
 
 /* Clients Section
