@@ -160,7 +160,7 @@
 			renovation, modernization and augmentation works including civil and interiors, up-gradation of
 			existing electrical, plumbing, fire fighting, security system and HVAC works is well known in market.
 			Quality and assurances of our services is our evident clientele. Our area of operation is mainly in
-			Delhi and NCR.</p>
+			Delhi and NCR. The company's present annual turnover is approx INR 150 millions, however the company is financially and commercially capable of executing the projects upto INR 250 millions.</p>
         </header>
 
         <div class="row about-cols">
@@ -262,6 +262,101 @@
     </section><!-- #services -->
 
   
+    <section id="photo">
+      <div class="container">
+        <header class="section-header wow fadeInUp">
+          <h3>Photo Gallery</h3>
+        </header>
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="img/gallery1.JPG" style="width:100%" >
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="img/gallery2.JPG" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="img/gallery3.JPG" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="img/gallery4.JPG" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="img/gallery5.JPG" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="img/gallery6.JPG" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/gallery1.JPG" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/gallery2.JPG" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/gallery3.JPG" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/gallery4.JPG" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/gallery5.JPG" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="img/gallery6.JPG" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    </section>
+    <br><br>
+
 
     <!--==========================
       Facts Section
@@ -340,7 +435,7 @@
             <div class="portfolio-wrap">
 
               <div class="portfolio-info">
-                <h4><a href="#">Embassy of Republic of Korea</a></h4>
+                <h4>Embassy of Republic of Korea</a></h4>
                 <p>Doing round the clock operation &
                     preventive Maintenance of Technical Installations
                     installed at their Embassy Complex from July
@@ -354,7 +449,7 @@
             <div class="portfolio-wrap">
 
               <div class="portfolio-info">
-                <h4><a href="#">Embassy of Sultanate of Oman</a></h4>
+                <h4>Embassy of Sultanate of Oman</a></h4>
                 <p>Completed round the clock operation
                     Preventive Maintenance of technical Installations
                     installed at their Embassy Complex from
@@ -368,7 +463,7 @@
             <div class="portfolio-wrap">
 
               <div class="portfolio-info">
-                <h4><a href="#">Embassy of state of Kuwait</a></h4>
+                <h4>Embassy of state of Kuwait</a></h4>
                 <p>Completed round the clock operation
                     preventive Maintenance of Technical Installations
                     installed at their Embassy Complex from
@@ -382,7 +477,7 @@
             <div class="portfolio-wrap">
 
               <div class="portfolio-info">
-                <h4><a href="#">Poland Embassy</a></h4>
+                <h4>Poland Embassy</a></h4>
                 <p>Doing complete round the clock operation &
                     Preventive Maintenance of electro - mechanical
                     Installations installed at their Embassy Complex
@@ -397,7 +492,7 @@
             <div class="portfolio-wrap">
 
               <div class="portfolio-info">
-                <h4><a href="#">Ford Foundation</a></h4>
+                <h4>Ford Foundation</a></h4>
                 <p>Located: Lodhi Estate, New Delhi. Did augmentation / modernization
                     of  plumbing  distribution  system
                     and water treatment installations
@@ -411,7 +506,7 @@
             <div class="portfolio-wrap">
           
               <div class="portfolio-info">
-                <h4><a href="#">Embassy of Republic of Bulgaria</a></h4>
+                <h4>Embassy of Republic of Bulgaria</a></h4>
                 <p>Doing round the clock operation &
                     preventive Maintenance of electro - mechanical
                     Installations installed at their Embassy Complex
@@ -425,7 +520,7 @@
             <div class="portfolio-wrap">
 
               <div class="portfolio-info">
-                <h4><a href="#">Ghana High Commission</a></h4>
+                <h4>Ghana High Commission</a></h4>
                 <p>Located: Nyaya Marg, Chanakyapuri, 
                     New Delhi.
                     Completed turnkey Electrical Installation of their embassy building between year 1991 and 1993.</p>
@@ -437,7 +532,7 @@
             <div class="portfolio-wrap">
 
               <div class="portfolio-info">
-                <h4><a href="#">Embassy of Republic of Korea</a></h4>
+                <h4>Embassy of Republic of Korea</a></h4>
                 <p>Did interiors for Gym cum rest room
                     in Embassy Complex in March, 2009.
                     Did   miscellaneous   technical   up-
@@ -453,7 +548,7 @@
             <div class="portfolio-wrap">
               
               <div class="portfolio-info">
-                <h4><a href="#">Ghana High Commission</a></h4>
+                <h4>Ghana High Commission</a></h4>
                 <p>Completed round the clock operation &
                     preventive Maintenance of Technical Installations
                     installed at their Embassy Complex from January
@@ -467,7 +562,7 @@
             <div class="portfolio-wrap">
               
               <div class="portfolio-info">
-                <h4><a href="#">Royal Danish Embassy</a></h4>
+                <h4>Royal Danish Embassy</a></h4>
                 <p>Located: 11B, Aurangzeb Road, 
                     New Delhi.
                     Completed turnkey Electrical Installation of their Chancery building between year 1990 and 1992.</p>
@@ -479,7 +574,7 @@
             <div class="portfolio-wrap">
               
               <div class="portfolio-info">
-                <h4><a href="#">Belgium Embassy</a></h4>
+                <h4>Belgium Embassy</a></h4>
                 <p>Located: Shanti Path, Chanakyapuri, 
                     New Delhi.
                     Completed turnkey Electrical Installation of their two flats between year 1988 and 1989</p>
@@ -491,7 +586,7 @@
             <div class="portfolio-wrap">
               
               <div class="portfolio-info">
-                <h4><a href="#">Ring Road Motors</a></h4>
+                <h4>Ring Road Motors</a></h4>
                 <p>Located: Rothak Road, 
                     New Delhi. 
                     Completed turnkey Electrical Installation of their Honda car show room at Peera Garhi during year 1998.</p>
@@ -503,7 +598,7 @@
             <div class="portfolio-wrap">
               
               <div class="portfolio-info">
-                <h4><a href="#">Italian Cultural Centre</a></h4>
+                <h4>Italian Cultural Centre</a></h4>
                 <p>Located: Chanakyapuri, New Delhi. Did Complete turnkey Electrical Installation of their Office building between year 2000 and 2001</p>
               </div>
             </div>
@@ -513,7 +608,7 @@
             <div class="portfolio-wrap">
               
               <div class="portfolio-info">
-                <h4><a href="#">Austrian Embassy</a></h4>
+                <h4>Austrian Embassy</a></h4>
                 <p>Located: New Delhi. Did Complete turnkey Electrical Installation of their Office and Residence building in the year 2009.</p>
               </div>
             </div>
@@ -523,7 +618,7 @@
             <div class="portfolio-wrap">
               
               <div class="portfolio-info">
-                <h4><a href="#">Embassy of Turkey</a></h4>
+                <h4>Embassy of Turkey</a></h4>
                 <p>Located: New Delhi. Did Complete turnkey Electrical Installation of their Office building and Staff Residences in the year 2011.</p>
               </div>
             </div>
@@ -533,7 +628,7 @@
             <div class="portfolio-wrap">
               
               <div class="portfolio-info">
-                <h4><a href="#">DDFS at T-3 Airport</a></h4>
+                <h4>DDFS at T-3 Airport</a></h4>
                 <p>Loacted: New Delhi. Did complete turnkey Electrical Installation of their duty free shops at Arrival and Departure Lounges in the year 2010.</p>
               </div>
             </div>
@@ -543,7 +638,7 @@
             <div class="portfolio-wrap">
               
               <div class="portfolio-info">
-                <h4><a href="#">Austrian Embassy</a></h4>
+                <h4>Austrian Embassy</a></h4>
                 <p>Located: New Delhi. Did complete hot and cold water
                     plumbing piping installation with
                     Georg Fischer Pert piping for their
@@ -558,7 +653,7 @@
             <div class="portfolio-wrap">
               
               <div class="portfolio-info">
-                <h4><a href="#">Kuwait Embassy</a></h4>
+                <h4>Kuwait Embassy</a></h4>
                 <p>Did  complete  turnkey Plumbing
                     Installation  of  their Chancery
                     building in year 2009   
@@ -574,7 +669,7 @@
             <div class="portfolio-wrap">
               
               <div class="portfolio-info">
-                <h4><a href="#">Saudi Arab Embassy</a></h4>
+                <h4>Saudi Arab Embassy</a></h4>
                 <p>Located: Chanakyapuri, New Delhi. Completed  fire  fighting and
                     plumbing  job  for  their  Embassy
                     building at Chanakyapuri. 
@@ -588,7 +683,7 @@
             <div class="portfolio-wrap">
               
               <div class="portfolio-info">
-                <h4><a href="#">Vana Therapiya Ltd.</a></h4>
+                <h4>Vana Therapiya Ltd.</a></h4>
                 <p>Located: 2, Padmini Enclave,
                     New Delhi.
                     Did complete plumbing job, including
@@ -603,7 +698,7 @@
             <div class="portfolio-wrap">
               
               <div class="portfolio-info">
-                <h4><a href="#">Embassy of Republic of Bulgaria</a></h4>
+                <h4>Embassy of Republic of Bulgaria</a></h4>
                 <p>Located: New Delhi. Did complete replacement of water
                     distribution system in year 2005.
                     Did complete replacement of CDW
@@ -614,7 +709,11 @@
             </div>
           </div>
 
+
+
         </div>
+        <br>
+        <a href = "pdfs/Projects.pdf" style="font-size:20px"><b>Click here to see all Projects</b></a>
 
       </div>
     </section><!-- #portfolio -->
@@ -710,10 +809,30 @@
       </div>
     </section><!-- #team -->
 
+    <section id="certificates"  class="section-bg wow fadeIn">
+      <div class="container">
+        <br><br><br>
+        <header class="section-header">
+          <h3>Licence and Certifications</h3>
+    
+        </header>
+        <div align="center">
+
+        <a href = "pdfs/pdf1.pdf">Elect. Licence&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href = "pdfs/pdf2.pdf">Incorporation Certificate&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href = "pdfs/pdf3.pdf">ISO 9001&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href = "pdfs/pdf4.pdf">ISO 14001&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href = "pdfs/pdf5.pdf">MSME200&nbsp;</a>
+      </div>
+      <br><br><br>
+
+      </div>
+    </section>
+
     <!--==========================
       Contact Section
     ============================-->
-    <section id="contact" class="section-bg wow fadeInUp">
+    <section id="contact" class="wow fadeIn">
       <div class="container">
 
         <div class="section-header">
@@ -752,7 +871,7 @@
         <div class="form">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
-          <form action="https://formspree.io/xwkryank" method="POST" role="form" class="contactForm" onsubmit="myFunction()" id="vtscpl">
+          <form action="https://formspree.io/mlepkeqb" method="POST" role="form" class="contactForm" id="vtscpl">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -772,12 +891,11 @@
               <div class="validation"></div>
             </div>
             <div class="text-center">
-              <input name="submit" type="submit" value="Send a Mail" /></div>
+              <input name="submit" type="submit" value="Send a Mail" onclick="myFunction()" /></div>
           </form>
           <script>
             function myFunction() {
-              alert("Message sent successfully!");
-              document.getElementById("vtscpl").reset();
+              alert("Message sent successfully!\nKindly reload to send another message.");
             }
           </script>
 
@@ -807,6 +925,7 @@
               <li><i class="ion-ios-arrow-right"></i> <a href="#intro">Home</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="#about">About us</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="#services">Services</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#certificates">Licence and Certifications</a></li>
             </ul>
           </div>
 
